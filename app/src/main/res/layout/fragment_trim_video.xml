@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rsbView"
+        android:background="@color/black">
+
+        <SurfaceView
+            android:id="@+id/svVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center" />
+    </RelativeLayout>
+
+    <!--<wallpaper.videolive.views.custom.RangeSeekBarCustom-->
+    <!--android:id="@+id/rsbVideo"-->
+    <!--app:thumbColor="@color/yellow"-->
+    <!--app:progressColor="@color/white"-->
+    <!--android:layout_marginRight="@dimen/space_8"-->
+    <!--android:layout_marginLeft="@dimen/space_8"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="?attr/actionBarSize"-->
+    <!--android:layout_alignParentBottom="true" />-->
+
+    <wallpaper.videolive.views.custom.RangeSeekBarView
+        android:id="@+id/rsbView"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:bar_height="10dp" />
+</RelativeLayout>

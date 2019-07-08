@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/scSound"
+        android:layout_width="match_parent"
+        android:padding="@dimen/space_16"
+        android:layout_height="wrap_content"
+        android:text="Video Wallpaper Sound" />
+    <View
+        android:background="@color/divider_color"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_toLeftOf="@+id/spinerMode"
+            android:id="@+id/tvMode"
+            android:textColor="@color/black"
+            android:text="Video render mode"
+            android:padding="@dimen/space_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:layout_alignParentRight="true"
+            android:entries="@array/renderModeItems"
+            android:id="@+id/spinerMode"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <View
+        android:background="@color/divider_color"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>

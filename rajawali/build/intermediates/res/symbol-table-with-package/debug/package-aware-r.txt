@@ -1,0 +1,7 @@
+rajawali.framework
+raw blur_fragment_shader
+raw copy_fragment_shader
+raw fog_fragment_shader
+raw grey_scale_fragment_shader
+raw minimal_vertex_shader
+raw sepia_fragment_shader

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#414E59</color>
+    <color name="colorPrimaryDark">#20272C</color>
+    <color name="colorAccent">#ff080c</color>
+
+    <!-- VIDEO TRIMMER -->
+    <color name="background_video_color">#2f3031</color>
+    <color name="background_progress_color">#6C6D6D</color>
+    <color name="progress_color">@color/colorPrimary</color>
+    <color name="line_color">#FF15FF00</color>
+    <color name="shadow_color">#FF000000</color>
+    <color name="line_button">#565758</color>
+    <color name="black_translucent">#50000000</color>
+    <color name="black_translucent_image">#afaeae</color>
+
+    <color name="white">#FFFFFF</color>
+    <item name="yellow" type="color">#ffc517</item>
+    <color name="shadow_light">#70000000</color>
+    <color name="black">#000000</color>
+    <color name="red">#c90101</color>
+
+
+    <!-- Item ringtone color -->
+    <color name="index_1">#92C3D2</color>
+    <color name="index_2">#F1AE99</color>
+    <color name="index_3">#F3A29B</color>
+    <color name="index_4">#D9E08F</color>
+    <color name="index_5">#A16BA7</color>
+    <color name="second_text">#c7c5c5</color>
+    <color name="divider_color">#979794</color>
+    <color name="shadow_color_range">#7F000000</color>
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application Name -->
+    <string name="app_name">Video Live WallPaper And Ringtone</string>
+
+    <!-- Name in Live Wallpaper Picker list -->
+    <string name="lwp_name">Video</string>
+
+    <!-- Description in Live Wallpaper Picker list -->
+    <string name="lwp_desc">Video LiveWallpaper, select a movie and define as livewallpaper</string>
+
+    <!-- Author -->
+    <string name="lwp_author">Ravenfeld</string>
+
+    <string name="picker_toast_prefix">Choose \"</string>
+    <string name="picker_toast_suffix">\" from the list</string>
+    <!-- EditVideo -->
+    <string name="title_choose_video">Choose Video </string>
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="chooser_label">Select a file</string>
+    <string name="mute">Mute movie</string>
+    <string name="audio_enabled">Audio is enabled</string>
+    <string name="audio_disabled">Mute is disabled</string>
+    <string name="file">Video source</string>
+    <string name="file_summary">File</string>
+    <string name="renderer_mode_list_summary">Mode </string>
+    <string name="renderer_mode_list">Renderer mode</string>
+    <string name="classic">Classic</string>
+    <string name="letter_boxed">Letter_boxed</string>
+    <string name="stretched">Stretched</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="mute_is_true">Audio is enabled </string>
+    <string name="mute_is_false">Audio is disabled</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">SetWallPaper</string>
+    <string name="short_seconds">sec</string>
+    <string name="megabyte">MB</string>
+    <string name="kilobyte">KB</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_tab_video_wp">Video WallPaper</string>
+    <string name="title_tab_pic_wp">Picture WallPaper</string>
+    <string name="title_tab_ringtone">Ringtone</string>
+    <string name="title_tab_trim_video">Video WallPaper</string>
+
+    <!-- Ringtone -->
+    <array name="list_nameRel">
+        <item>Iphone Ringtone Dubstep</item>
+        <item>Iphone Ringtone Remix</item>
+        <item>Iphone 7 2016</item>
+        <item>Iphone 7 Plus</item>
+        <item>Iphone 6s</item>
+        <item>Ambiental Rhythm</item>
+        <item>Beacon</item>
+        <item>Belltower</item>
+        <item>Blues</item>
+        <item>Boing</item>
+        <item>Bulletin</item>
+        <item>Bytheseaside</item>
+        <item>Chimes</item>
+        <item>Elegant</item>
+        <item>Galliard</item>
+        <item>Lyricas</item>
+        <item>Morning</item>
+        <item>Pop Star</item>
+        <item>Radar</item>
+        <item>Radiate</item>
+        <item>Ripples</item>
+        <item>Robot</item>
+        <item>Scifi</item>
+        <item>Sencha</item>
+        <item>Signal</item>
+        <item>Silk</item>
+        <item>Slowrise</item>
+        <item>Solitude</item>
+        <item>Summer</item>
+        <item>Vibrant</item>
+        <item>whistle</item>
+    </array>
+    <array name="list_nameRelFile">
+        <item>a1</item>
+        <item>a2</item>
+        <item>a3</item>
+        <item>a4</item>
+        <item>a5</item>
+        <item>ambiental</item>
+        <item>beacon_mp3</item>
+        <item>belltower_mp3</item>
+        <item>blues_mp3</item>
+        <item>boing_mp3</item>
+        <item>bulletin_mp3</item>
+        <item>bytheseaside_mp3</item>
+        <item>chimes_mp3</item>
+        <item>elegant</item>
+        <item>galliard</item>
+        <item>lyricas</item>
+        <item>morning</item>
+        <item>popstar</item>
+        <item>radar_mp3</item>
+        <item>radiate_mp3</item>
+        <item>ripples_mp3</item>
+        <item>robot_mp3</item>
+        <item>scifi_mp3</item>
+        <item>sencha_mp3</item>
+        <item>signal_mp3</item>
+        <item>silk_mp3</item>
+        <item>slowrise_mp3</item>
+        <item>solitude</item>
+        <item>summer</item>
+        <item>vibrant</item>
+        <item>whistle</item>
+    </array>
+
+    <!-- Popup dialog -->
+    <string name="default_ringtone">Default ringtone</string>
+    <string name="contact_ringtone">Contact ringtone</string>
+    <string name="default_notification">Default Notification</string>
+    <string name="default_alarm">Default Alarm</string>
+    <string name="share_ringtone">Share ringtone</string>
+
+    <string name="device_not_supported">Device not supported</string>
+    <string name="device_not_supported_message">FFmpeg is not supported on your device</string>
+    <string name="title_dialog_play_video">Error</string>
+    <string name="msg_dialog_play_video">Can\'t play this video!</string>
+    <string name="granted_permission_msg">You have granted. Now, you can setup ringtone!</string>
+    <string name="title_dialog_granted">Notice</string>
+    <string name="not_granted_write_settings">You have not allowed Write Settings permission, you can not use application!</string>
+    <string name="not_granted_write_storage">You have not allowed Write Storage  permission, you can not download image!</string>
+    <string name="msg_note_permission_write_settings">You have to allow permission Write Settings to set ringtone</string>
+    <string name="toast_msg_fail">Failed due to problem with your device</string>
+    <string name="toast_msg_success">Success</string>
+    <string name="msg_snackbar_permission">Please allowed  this permission to can be used</string>
+    <string name="button_snackbar_permission">Open</string>
+    <string name="download_fail_msg">Download failed</string>
+    <string name="download_success">Downloaded successfully. Image has been saved at path : %s</string>
+
+    <string name="ads_id">ca-app-pub-7175257333659370~3537489170</string>
+    <string name="ads_id_ban1">ca-app-pub-7175257333659370/8215100787</string>
+    <string name="ads_id_ban2">ca-app-pub-7175257333659370/5414086740</string>
+    <string name="ads_id_inter1">ca-app-pub-7175257333659370/9639863090</string>
+    <string name="title_wp_settings">Settings</string>
+
+
+    <string-array name="renderModeItems">
+        <item>Classic</item>
+        <item>Letter Boxed</item>
+        <item>Stretched</item>
+
+    </string-array>
+    <string name="desc_app"><![CDATA[
+       VLAR™ - This is a application very helpful. You can set a video as Live wallpaper to your phone. Besides, you can download some full hd image and set them as wallpaper. You can turn your phone into an Iphone by set sound as ringtone. Thank you very much. Don\'t forget rate to help us improve. ]]></string>
+    <string name="desc_web"><![CDATA[
+     Visit website at <a href="http://livewallpaperapp.tk/">livewallpaperapp.tk.</a> ]]></string>
+
+    <string name="desc_policy"><![CDATA[
+    <a href="http://livewallpaperapp.tk/Terms/">http://livewallpaperapp.tk/Terms/</a><</a>
+ ]]></string>
+    <string name="title_infor_wp">Information</string>
+    <string name="title_dialog_update">Update</string>
+</resources>

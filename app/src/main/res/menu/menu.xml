@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/search3"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/set_wallpaper"
+        android:icon="@drawable/thumb"
+        android:title="@null"
+        app:showAsAction="ifRoom"/>
+    <item android:title="Title"
+        />
+    <item android:title="Date"
+        />
+    <item android:title="Duration"
+        />
+    <item android:title="Album"
+        />
+
+</menu>

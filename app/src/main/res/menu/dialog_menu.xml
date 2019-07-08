@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/default_ring"
+        android:icon="@drawable/ic_default"
+        android:title="@string/default_ringtone"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/contact_ring"
+        android:icon="@drawable/ic_contact"
+        android:title="@string/contact_ringtone"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/notification_ring"
+        android:icon="@drawable/ic_notifi"
+        android:title="@string/default_notification"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/alarm_ring"
+        android:icon="@drawable/ic_alarm"
+        android:title="@string/default_alarm"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/share_ring"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share_ringtone"
+        android:showAsAction="ifRoom"/>
+</menu>

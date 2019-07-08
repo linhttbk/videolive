@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RangeSeekBar">
+        <!-- the minimum of the range -->
+        <attr name="absoluteMinValue" format="integer|float"/>
+
+        <!-- the maximum of the range -->
+        <attr name="absoluteMaxValue" format="integer|float"/>
+
+        <!-- the step value -->
+        <attr name="step" format="integer|float"/>
+
+        <!-- show a single slider -->
+        <attr name="singleThumb" format="boolean"/>
+
+        <!-- show the labels on the right and left-->
+        <attr name="showLabels" format="boolean"/>
+
+        <!-- alwaysActive will make the buttons and bar always draw as the activeColor (the default is false) -->
+        <attr name="alwaysActive" format="boolean"/>
+
+        <!-- show the currently selected value above each thumb (defaults to true) -->
+        <attr name="valuesAboveThumbs" format="boolean"/>
+
+        <!-- padding on either side on the slider -->
+        <attr name="internalPadding" format="dimension"/>
+
+        <!-- the height of the bar -->
+        <attr name="barHeight" format="dimension"/>
+        <attr name="barWidthThumb" format="dimension"/>
+        <!-- the color of the bar that is not selected -->
+        <attr name="defaultColor" format="color"/>
+
+        <!-- the color of the bar that is selected -->
+        <attr name="activeColor" format="color"/>
+        <attr name="visibleColor" format="color"/>
+
+        <!-- the color of the text above thumbs -->
+        <attr name="textAboveThumbsColor" format="color"/>
+
+        <!-- set drawables for thumb handles -->
+        <attr name="thumbNormalLeft" format="reference"/>
+        <attr name="thumbPressedLeft" format="reference"/>
+        <attr name="thumbDisabledLeft" format="reference"/>
+
+        <!-- set drawables for thumb handles -->
+        <attr name="thumbNormalRight" format="reference"/>
+        <attr name="thumbPressedRight" format="reference"/>
+        <attr name="thumbDisabledRight" format="reference"/>
+
+        <!-- thumb shadow specifications -->
+        <attr name="thumbShadow" format="boolean"/>
+        <attr name="thumbShadowColor" format="color"/>
+        <attr name="thumbShadowXOffset" format="dimension"/>
+        <attr name="thumbShadowYOffset" format="dimension"/>
+        <attr name="thumbShadowBlur" format="dimension"/>
+
+        <!-- to activate the thumbs and texts when the min and max values are the default ones (defaults to false) -->
+        <attr name="activateOnDefaultValues" format="boolean"/>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="RangeSlider">
+        <attr name="lineHeight" format="dimension" />
+        <attr name="thumbWidth" format="dimension" />
+        <attr name="lineColor" format="color" />
+        <attr name="maskColor" format="color" />
+        <attr name="tickCount" format="integer" />
+        <attr name="leftThumbIndex" format="integer" />
+        <attr name="rightThumbIndex" format="integer" />
+        <attr name="leftThumbDrawable" format="reference" />
+        <attr name="rightThumbDrawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RangeSeekBarCustom">
+        <attr name="minValue" format="integer"/>
+        <attr name="maxValue" format="integer"/>
+        <attr name="widthThumb" format="dimension"/>
+        <attr name="thumbColor" format="color"/>
+        <attr name="showLabel" format="boolean"/>
+        <attr name="progressColor" format="color"/>
+    </declare-styleable>
+    <!-- Range Seekbar -->
+    <declare-styleable name="RangeSeekBarView" >
+        <attr name="corner_radius" />
+        <attr name="min_value" />
+        <attr name="max_value" />
+        <attr name="min_start_value" />
+        <attr name="max_start_value" />
+        <attr name="steps" />
+        <attr name="gap" />
+        <attr name="fix_gap" />
+        <attr name="bar_height"/>
+        <attr name="bar_color_mode" />
+        <attr name="bar_color" />
+        <attr name="bar_gradient_start" />
+        <attr name="bar_gradient_end" />
+        <attr name="bar_highlight_color_mode" />
+        <attr name="bar_highlight_color" />
+        <attr name="bar_highlight_gradient_start" />
+        <attr name="bar_highlight_gradient_end" />
+        <attr name="thumb_diameter" />
+        <attr name="position" />
+        <attr name="data_type" />
+        <attr name="left_thumb_color" format="color" />
+        <attr name="left_thumb_color_pressed" format="color" />
+        <attr name="left_thumb_image" format="reference" />
+        <attr name="left_thumb_image_pressed" format="reference" />
+        <attr name="right_thumb_color" format="color" />
+        <attr name="right_thumb_color_pressed" format="color" />
+        <attr name="right_thumb_image" format="reference" />
+        <attr name="right_thumb_image_pressed" format="reference" />
+        <attr name="seek_bar_touch_enabled" />
+
+        <attr name="thumb_color" format="color" />
+        <attr name="thumb_color_pressed" format="color" />
+        <attr name="thumb_image" format="reference" />
+        <attr name="thumb_image_pressed" format="reference" />
+    </declare-styleable>
+    <!-- Seekbar -->
+    <declare-styleable name="SeekBarView" >
+
+
+    </declare-styleable>
+</resources>

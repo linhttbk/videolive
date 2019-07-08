@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rlThumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgThumb"
+            android:layout_width="90dip"
+            android:layout_height="60dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/space_4"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/imgOverlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_thumb_play" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/space_16"
+        android:layout_toRightOf="@+id/rlThumb"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/title_tab_video_wp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_16" />
+
+    <TextView
+        android:id="@+id/tvSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginLeft="@dimen/space_16"
+        android:layout_toRightOf="@+id/rlThumb"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/second_text"
+        android:textSize="@dimen/text_11" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/rlThumb"
+        android:layout_marginLeft="@dimen/space_4"
+        android:layout_marginTop="@dimen/height_2"
+        android:background="@color/divider_color" />
+</RelativeLayout>

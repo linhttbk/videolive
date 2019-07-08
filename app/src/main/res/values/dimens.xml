@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- VIDEO TRIMMER-->
+    <dimen name="progress_video_line_height">2dp</dimen>
+    <dimen name="frames_video_height">40dip</dimen>
+
+    <!-- MARGIN/PADDING -->
+    <dimen name="space_4">4dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="space_12">12dp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="space_20">20dp</dimen>
+    <dimen name="space_24">24dp</dimen>
+    <dimen name="space_28">28dp</dimen>
+    <dimen name="space_32">32dp</dimen>
+    <dimen name="space_36">36dp</dimen>
+    <dimen name="space_40">40dp</dimen>
+    <dimen name="space_48">48dp</dimen>
+    <dimen name="space_60">60dp</dimen>
+
+    <!-- HEIGHT -->
+    <dimen name="height_half">0.5dp</dimen>
+    <dimen name="height_1">1dp</dimen>
+    <dimen name="height_2">2dp</dimen>
+    <dimen name="height_12">12dp</dimen>
+    <dimen name="height_16">16dp</dimen>
+    <dimen name="height_28">28dp</dimen>
+    <dimen name="height_32">32dp</dimen>
+    <dimen name="height_48">48dp</dimen>
+    <dimen name="height_52">52dp</dimen>
+    <dimen name="height_64">64dp</dimen>
+    <dimen name="height_72">72dp</dimen>
+    <dimen name="height_100">100dp</dimen>
+    <dimen name="height_125">125dp</dimen>
+    <dimen name="height_150">150dp</dimen>
+    <dimen name="height_200">200dp</dimen>
+
+    <!-- TEXT -->
+    <dimen name="text_11">11sp</dimen>
+    <dimen name="text_13">13sp</dimen> <!-- Leading 20/24pt -->
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_15">15sp</dimen> <!-- Leading 24/28pt -->
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_24">24sp</dimen> <!-- Leading 32pt -->
+    <dimen name="text_34">34sp</dimen> <!-- Leading 40pt -->
+    <dimen name="text_45">45sp</dimen> <!-- Leading 48pt -->
+
+    <dimen name="thumb_width">15dp</dimen>
+    <dimen name="thumb_height">52dp</dimen>
+
+    <dimen name="bubble_thumb_width">70dp</dimen>
+    <dimen name="bubble_thumb_height">70dp</dimen>
+</resources>
